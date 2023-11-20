@@ -1,0 +1,270 @@
+LINK PAGINA WEB: http://127.0.0.1:57475/index.html 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mecánica</title>
+    <link rel="stylesheet" href="estilos.css">
+    </head>
+<body>
+    <div class="container">
+        <header class="superior">
+            <div class="logo">
+                <img src="imagenes/logo-blanco.png" alt="">
+            </div>
+            <nav class="menu">
+                <ul class="opciones">
+                    <li><a href="">INICIO</a></li>
+                    <li><a href="">NOSOTROS</a></li>
+                    <li><a href="">SERVICIOS</a></li>
+                    <li><a href="">NOTICIAS</a></li>
+                    <li><a href="">CONTACTO</a></li>
+              </ul>
+            </nav>
+        </header>
+        <section class="slider">
+            <img src="imagenes/slider01.jpg" alt="" width="100%">
+        </section>
+        <section class="cuerpo">
+            <h1 class="titulo">
+                BIENVENIDOS A TU MECANICA DE CONFIANZA
+            </h1>
+            <article class="caja">
+                <div class="subtitulo">
+                <img src="imagenes/servicio01.jpg" alt="" class="efecto">
+                <h3 class="servicios">
+                    Servicio de Asistencia y Grúa
+                    </h3>
+                </div>
+                <div class="contenido">
+                <p>Si lamentablemente tu vehículo se encuentra imposible de movilizar, en situación de avería o accidente, nuestro servicio de asistencia está disponible 24/7 para trasladar tu auto. 
+                    
+                    
+                    </p>
+                   <center> <input type="submit" class="boton" value="ACCEDER">
+                    </center>
+                </div>
+            </article>
+            
+            <article class="caja">
+                <div class="subtitulo">
+                <img src="imagenes/servicio02.jpg" alt="" class="efecto">
+                <h3 class="servicios">
+                    Mecánica Básica
+                    </h3>
+                </div>
+                <div class="contenido">
+                <p>Para esos cambios de rutina, somos  tu mejor opción. Contamos con productos de primer nivel, repuestos y servicios para cuidar de ti y tu vehículo.
+                    
+                    </p>
+                    <center><input type="submit" class="boton" value="ACCEDER">
+                    </center>
+                </div>
+            </article>
+            
+            
+            
+            <article class="caja">
+                 <div class="subtitulo">
+                <img src="imagenes/servicio03.jpg" alt="" class="efecto">
+                     <h3 class="servicios">
+                    Revisiones Automotriz
+                    </h3>
+                </div>
+                <div class="contenido">
+                <p>Contamos  con un equipo de expertos calificados que brindan un servicio especializado  para cuidar tu vehículo y brindarte diagnósticos oportunos.
+                    
+                    
+                    </p>
+                    <center>
+                    <input type="submit" class="boton" value="ACCEDER">
+                    </center>
+                </div>
+                
+            </article>
+       </section>
+        <footer class="pie">
+            <div class="izquierda">
+                <center>
+                
+                <img src="imagenes/logo-blanco.png" alt="">
+                    <p class="abajo">
+                        Pensando en tu comididad Uno A Automotriz hemos puesto a tu disposición un amplio portafolio de los mejores productos y repuestos para tu vehículo
+                        
+                    </p>
+                </center>
+            </div>   
+            <div class="derecha">
+                <p class="siguenos">Siguenos</p>
+                
+             <center>
+                <img src="imagenes/behance.png" alt="">
+                <img src="imagenes/instagram.png" alt="">
+                <img src="imagenes/twitter.png" alt="">
+                 <img src="imagenes/youtube.png" alt="">
+                             
+                </center>
+            </div>
+        </footer>
+    </div>   
+    </body>
+</html>
+
+
+------------------------------------------//---------------------------------------------------//-----------------------------------------------//
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+BODY {
+    
+    background: #efeded;  
+    font-family: verdana;
+}
+.container{
+    width: 1200px;
+    background:  #ffffff;
+    margin: 10px auto;
+}
+.superior{
+    
+    background: #1755a8;
+    overflow: hidden;
+}
+
+.logo{
+    
+    float:  left;
+    width:  300px;
+    padding:  35px;
+}
+.menu{
+    float: left;
+    padding: 50px;
+   
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration:  none;
+    border:1px solid white;
+    
+}
+
+.opciones li a: hover{
+    
+    background: #315688;
+}
+
+
+.cuerpo{
+    overflow:  hidden;
+    background: #f7f7f7;
+
+
+}
+
+.caja{
+    
+    float: left;
+    width: 395px;
+    margin: 15px
+    color: #000000;
+    border: 1px solid;
+}
+
+.subtitulo{
+    background: #236bcb;
+    
+}
+
+.servicios{
+    
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
+.efecto:hover{
+    
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.contenido {
+    
+    padding: 15px;
+    text-align:  justify;
+}
+
+.boton {
+    padding:  15px 20px;
+    margin: 20px 0;
+    color: white;
+    background: #174e98;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    
+    background:  #0c2c57;
+    cursor: pointer;
+}
+
+.titulo{
+    
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: coral;
+    font-size: 35px;
+}
+
+.pie{
+    
+    background: #062348;
+    overflow: hidden;
+}
+
+.izquierda{
+    
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+.derecha{
+    
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+.abajo{
+    
+    color:white;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+
+.siguenos{
+    
+    text-align: center;
+    color: white;
+    padding: 15px;
+    
+    
+}
